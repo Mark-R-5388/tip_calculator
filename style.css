@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.15rem;
+}
+
+/* Failed Message Box*/
+#failMessage,
+#printSuccess {
+  color: rgb(134, 0, 0);
+  background: rgb(186, 186, 199);
+  margin: 20px auto;
+  padding: 10px;
+  width: 600px;
+  line-height: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+}
+
+/* Input Box */
+#input-form {
+  margin: 40px auto;
+  background: rgb(186, 186, 199);
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  background: rgb(139, 138, 138);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+#submit-btn {
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+/* Success Box */
+#printSuccess {
+  color: rgb(76, 76, 241);
+}
